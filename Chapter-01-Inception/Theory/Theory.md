@@ -9,7 +9,7 @@ Libraries provide developers with predefined functions and classes to make their
 Framework, on the other hand, is like the foundation upon which developers build applications for specific platforms. 
 Ref: [framework vs library](https://www.interviewbit.com/blog/framework-vs-library/).
 
-![Framework vs Library](/Chapter-01-Inception/Theory/images/frameworkVSlibrary.png)
+![Framework vs Library](Chapter-01-Inception/Theory/images/frameworkVSlibrary.png)
 
 
 ## What is CDN? Why do we use it?
@@ -56,4 +56,4 @@ Deferred scripts maintain their relative order which means the first script will
 
 > defer is used for scripts that need the whole DOM and/or their relative execution order is important. And async is used for independent scripts, like counters or ads.
 
-[async vs defer](/Chapter-01-Inception/Theory/images/asyncVSdefer.png)
+![async vs defer](Chapter-01-Inception/Theory/images/asyncVSdefer.png)
