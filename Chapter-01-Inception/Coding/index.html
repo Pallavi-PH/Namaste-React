@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <!-- Writing text just using HTML -->
+    <h1>Text from HTML</h1>
+    <div id="root-html"></div>
+    <div id="root"></div>
+
+    <script>
+        // Writing text just using Javascript
+        let heading = document.createElement("h1");
+        heading.innerHTML = "Text from Javascript";
+
+        let rootHtml = document.getElementById("root-html");
+        rootHtml.appendChild(heading);
+    </script>
+    
+    <!-- CDN for adding React library -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="App.js"></script>
+</body>
+</html>
