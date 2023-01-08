@@ -164,7 +164,5 @@ Browserslist is a tool that allows specifying which browsers should be supported
 
 
 Read about dif bundlers: vite, webpack, parcel
-* Read about: ^ - caret and ~ - tilda
-* Read about Script types in html (MDN Docs)
-
-Ref: [https://github.com/browserslist/browserslist#readme](https://github.com/browserslist/browserslist#readme), [https://browserslist.dev/](https://browserslist.dev/)
+● Read about: ^ - caret and ~ - tilda
+● Read about Script types in html (MDN Docs)
