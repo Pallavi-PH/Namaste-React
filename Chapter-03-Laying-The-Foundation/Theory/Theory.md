@@ -32,8 +32,8 @@ Characteristics of JSX:
 - It is type-safe, and most of the errors can be found at compilation time.
 
 
-## Role of type `attribute` in script tag? What options can I use there?
-The type attribute specifies the type of the script. The type attribute identifies the content between the `<script> and </script>` tags.
+## Role of `type` attribute in script tag? What options can I use there?
+The `type` attribute specifies the type of the script. The type attribute identifies the content between the `<script> and </script>` tags.
 
 `type` attribute indicates the type of script represented. The value of this attribute will be one of the following:
 
