@@ -13,6 +13,9 @@ dist/
 # parcel files
 .parcel-cache
 
+## Babel config file
+.babelrc
+
 # misc
 .env.local
 .env.development.local
