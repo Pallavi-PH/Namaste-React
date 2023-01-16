@@ -28,6 +28,27 @@ body{
     padding: 20px;
 }
 
+.search_container{
+    display: flex;
+    margin: 40px 108px;
+}
+
+.search_input{
+    width:100%;
+    margin-right: 20px;
+}
+
+.search_button{
+    padding: 10px 45px;
+    background: #62822f;
+    color: white;
+    outline: none;
+    border: 1px solid #62822f;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .restaurants{
     display: flex;
     flex-wrap: wrap;

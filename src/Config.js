@@ -1,7 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-
-const restaurantList = [
+export const restaurantList = [
     {
       type: "restaurant",
       data: {
@@ -732,79 +729,3 @@ const restaurantList = [
       subtype: "basic",
     },
   ];
-
-const AppLayout = () => {
-    return (
-        <>
-            <Header />
-            <Body/>
-            <Footer />
-        </>
-    )
-}
-
-const Header = () =>{
-    return (
-        <div className="header">
-            <div className="logo">
-                Food Villa
-            </div>
-            <ul className="navList">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Cart</li>
-            </ul>
-        </div>
-    )
-}
-
-const Body = () => {
-    return (
-        <div className="restaurants">
-            {restaurantList.map((restaurant)=>{
-                return (
-                    <RestaurantCard {...restaurant.data} key={restaurant.data.id}/>
-                )
-            })
-            }
-        </div>
-    )
-}
-
-const RestaurantCard = ({name, cloudinaryImageId, cuisines, avgRating, costForTwoString}) => {
-    return (
-        <div className="restaurant__item">
-            <img alt={name} src={`https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/${cloudinaryImageId}`} className="restaurant__image"/>
-            <div className="restaurant__body">
-                <h2 className="restaurant__name">{name}</h2>
-                <p>{cuisines.join(", ")}</p>
-                <div className="restaurant__content">
-                    <span className="restaurant__rating">{avgRating} stars</span>
-                    <span>{costForTwoString}</span>
-                </div>
-            </div>
-        </div>
-    )
-}
-
-const Footer = () => {
-    return (
-        <div className="footer">
-            <ul className="footer__links">
-                <li>About us</li>
-                <li>Team</li>
-                <li>Careers</li>
-                <li>Blog</li>
-                <li>Help & Support</li>
-            </ul>
-            <p className="footer__copyright">Copyright 2023</p>
-        </div>
-    )
-}
-
-
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(<AppLayout />);
