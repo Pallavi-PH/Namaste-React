@@ -114,3 +114,8 @@ body{
     text-align: center;
     font-size: 12px;
 }
+
+.no_match{
+    text-align: center;
+    padding: 10%;
+}
