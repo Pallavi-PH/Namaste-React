@@ -119,3 +119,28 @@ body{
     text-align: center;
     padding: 10%;
 }
+
+.shimmer-card .restaurant__image, .shimmer-card .restaurant__name,.shimmer-card p, .shimmer-card .restaurant__rating, .shimmer-card span:last-child{
+    background: lightgrey;
+}
+.shimmer-card .restaurant__image{
+    height: 220px;
+}
+
+.shimmer-card .restaurant__name{
+    height: 20px;
+}
+
+.shimmer-card p{
+    height: 18px;
+}
+
+.shimmer-card .restaurant__rating{
+    height: 18px;
+    width: 48px;
+}
+
+.shimmer-card span:last-child{
+    height: 18px;
+    width: 84px;
+}
