@@ -2,7 +2,7 @@ const Shimmer = () =>{
     return (
         <div className="restaurants">
             {Array(12).fill("").map((e, index)=>(
-                    <div className="shimmer-card restaurant__item">
+                    <div className="shimmer-card restaurant__item" key={index}>
                         <div className="restaurant__image"/>
                         <div className="restaurant__body">
                             <h2 className="restaurant__name"></h2>

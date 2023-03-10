@@ -9,6 +9,7 @@ import Login from "./components/Login";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import {createBrowserRouter, Outlet, RouterProvider} from "react-router-dom";
+import Parent from "./components/ClassParent";
 
 const AppLayout = () => {
     return (
@@ -45,6 +46,10 @@ const appRouter = createBrowserRouter([
             {
                 path: "/login",
                 element: <Login />
+            },
+            {
+                path: "/parentClass",
+                element: <Parent />
             }
         ]
     }
